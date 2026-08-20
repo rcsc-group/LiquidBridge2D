@@ -1,6 +1,8 @@
 # 2D Liquid Bridge Dynamics
 
-Direct numerical simulation code infrastructure for the two-dimensional computational model of a liquid bridge created between two cylinders held at a fixed distance between them, and subsequently allowed to fall under gravity. The key challenge is including contact angle dynamics over embedded solid geometries, as only recently (2024) [implemented in Basilisk](http://basilisk.fr/sandbox/tavares/) and expanded upon in [the associated publication](https://www.sciencedirect.com/science/article/pii/S004579302400149X). The code supports the active collaboration on this topic with the Department of Mathematical Sciences and Department of Chemical Engineering at Loughborough University.
+Direct numerical simulation code infrastructure for the two-dimensional computational model of a liquid bridge created between two cylinders held at a fixed distance between them, and subsequently allowed to fall under gravity. This repository provides a compact and reproducible computational companion to the associated study available on [arXiv:2608.18291](https://arxiv.org/abs/2608.18291), bringing together a comprehensive experimental campaign, mathematical modelling, asymptotic analysis and associated reduced-dimensional modelling calculations.
+
+The key challenge is including contact angle dynamics over embedded solid geometries, as only recently (2024) [implemented in Basilisk](http://basilisk.fr/sandbox/tavares/) and expanded upon in [the associated publication](https://www.sciencedirect.com/science/article/pii/S004579302400149X). The code supports the active collaboration on this topic with the Department of Mathematical Sciences and Department of Chemical Engineering at Loughborough University.
 
 <img width="100%" alt="LiquidBridge" src="https://github.com/user-attachments/assets/77e9782f-d896-41fb-a2d3-65d715d8a5cf" />
 
@@ -95,8 +97,10 @@ Output layout and file naming are managed by the run script; inspect DriverCode/
 
 ## 🧑 Contributing
 
-Contributions welcome:
+Contributions and reproducibility feedback are welcome. Please feel free to:
 
 - Fork the repo  
 - Open issues to report bugs or request features  
 - Submit pull requests with improvements, tests, or documentation updates
+
+For numerical changes, please document any modifications to solver tolerances, mesh-adaptation criteria, physical parameters, compiler settings, or stopping conditions that may affect reproducibility.
