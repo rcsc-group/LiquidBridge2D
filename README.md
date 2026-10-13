@@ -106,13 +106,6 @@ Contributions and reproducibility feedback are welcome. Please feel free to:
 For numerical changes, please document any modifications to solver tolerances, mesh-adaptation criteria, physical parameters, compiler settings, or stopping conditions that may affect reproducibility.
 
 ---
-
-## Citation
-
-If you use this code in your research, please cite:
-
-
-
 ## 📚 Citation
 
 If you use this code or data in your work, please cite the associated publication:
