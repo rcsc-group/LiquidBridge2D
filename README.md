@@ -1,6 +1,6 @@
 # 2D Liquid Bridge Dynamics
 
-Direct numerical simulation code infrastructure for the two-dimensional computational model of a liquid bridge created between two cylinders held at a fixed distance between them, and subsequently allowed to fall under gravity. This repository provides a compact and reproducible computational companion to the associated study available on [arXiv:2608.18291](https://arxiv.org/abs/2608.18291), bringing together a comprehensive experimental campaign, mathematical modelling, asymptotic analysis and associated reduced-dimensional modelling calculations.
+Direct numerical simulation code infrastructure for the two-dimensional computational model of a liquid bridge created between two cylinders held at a fixed distance between them, and subsequently allowed to fall under gravity. This repository provides a compact and reproducible computational companion to the associated study published in the [Journal of Fluid Mechanics 1044, A2 (2026)](https://doi.org/10.1017/jfm.2026.12035), bringing together a comprehensive experimental campaign, mathematical modelling, asymptotic analysis and associated reduced-dimensional modelling calculations.
 
 The key challenge is including contact angle dynamics over embedded solid geometries, as only recently (2024) [implemented in Basilisk](http://basilisk.fr/sandbox/tavares/) and expanded upon in [the associated publication](https://www.sciencedirect.com/science/article/pii/S004579302400149X). The code supports the active collaboration on this topic with the Department of Mathematical Sciences and Department of Chemical Engineering at Loughborough University.
 
@@ -104,3 +104,31 @@ Contributions and reproducibility feedback are welcome. Please feel free to:
 - Submit pull requests with improvements, tests, or documentation updates
 
 For numerical changes, please document any modifications to solver tolerances, mesh-adaptation criteria, physical parameters, compiler settings, or stopping conditions that may affect reproducibility.
+
+---
+
+## Citation
+
+If you use this code in your research, please cite:
+
+
+
+## 📚 Citation
+
+If you use this code or data in your work, please cite the associated publication:
+
+> A.J. Bokányi-Tóth, A.J. Archer, R. Cimpeanu, H.C. Hemaka Bandulasena, G.I. Tóth and D. Tseluiko (2026). Liquid bridges between horizontal cylinders: Effects of gravity and electric fields. Journal of Fluid Mechanics, 1044, A2.
+
+BibTeX:
+
+```bibtex
+@article{bokanyi2026liquid,
+  title={Liquid bridges between horizontal cylinders: Effects of gravity and electric fields},
+  author={Bok{\'a}nyi-T{\'o}th, {\'A}gnes J and Archer, Andrew J and Cimpeanu, Radu and Bandulasena, HC Hemaka and T{\'o}th, Gyula I and Tseluiko, Dmitri},
+  journal={Journal of Fluid Mechanics},
+  volume={1044},
+  pages={A2},
+  year={2026},
+  publisher={Cambridge University Press}
+}
+```
